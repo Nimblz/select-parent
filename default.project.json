@@ -1,0 +1,24 @@
+{
+  "name": "select-parent",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": {
+          "Type": "Bool",
+          "Value": true
+        }
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "potsticker": {
+        "$className": "Folder",
+        "plugin": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
