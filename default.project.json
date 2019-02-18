@@ -13,7 +13,7 @@
     },
     "ServerStorage": {
       "$className": "ServerStorage",
-      "potsticker": {
+      "select-parent": {
         "$className": "Folder",
         "plugin": {
           "$path": "src"
