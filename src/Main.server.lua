@@ -16,7 +16,7 @@ local pluginButton = pluginToolbar:CreateButton(
 )
 local pluginAction = plugin:CreatePluginAction(
     Config.PLUGIN_ID.."-action",
-    Config.PLUGIN_DESC,
+    Config.PLUGIN_NAME,
     Config.PLUGIN_DESC,
     Config.PLUGIN_ICON
 )
