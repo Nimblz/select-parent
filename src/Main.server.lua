@@ -8,7 +8,7 @@ local source = script.Parent
 
 local Config = require(source:WaitForChild("Config"))
 
-local pluginToolbar = plugin:CreateToolbar(Config.PLUGIN_NAME)
+local pluginToolbar = plugin:CreateToolbar(Config.TOOLBAR_NAME)
 local pluginButton = pluginToolbar:CreateButton(
     Config.PLUGIN_NAME,
     Config.PLUGIN_DESC,

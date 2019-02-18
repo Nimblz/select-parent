@@ -1,4 +1,5 @@
 return {
+    TOOLBAR_NAME = "Nimblz's Plugins",
     PLUGIN_ID =     "select-parent",
     PLUGIN_NAME =   "Select Parent",
     PLUGIN_DESC =   "Selects the parent of current selection. "..
